@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     delimiters = [".\s", "!\s", "?\s"]
-    self.split(/[.\s|| !\s || ?\s]/).length
+    self.split(/[.\s !\s ?\s]/).length
   end
 end
 
